@@ -1,13 +1,10 @@
 import requests
 import os
 from dotenv import load_dotenv
-from urllib3.contrib.emscripten import response
 from core.settings.environments import Environment
 from core.settings.config import Users, Timeouts
 import allure
 from core.clients.endpoints import Endpoints
-from tests.schemas.booking_schema import BOOKING_SCHEMA
-from tests.conftest import create_booking
 
 load_dotenv()
 
